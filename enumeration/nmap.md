@@ -2,7 +2,7 @@
 
 ## Basic scan
 
-Start a scan of the IP/Host to get the open ports and services
+Start a scan of the IP/Host to get the open ports and services.
 
 `sudo nmap -sC -sV -oA nmap_scan $IP`
 
@@ -14,6 +14,8 @@ Start a scan of the IP/Host to get the open ports and services
 | $IP| The IP of the host | 
 
 ## Scan all ports
+
+By default nmap scans only the 1000 most common ports, so it can be usefull to scan all the ports.
 
 `sudo nmap -p- -oA nmap_scan $IP`
 
