@@ -21,12 +21,12 @@ To list the shares of a host/IP.
 | $IP | The IP of the host | 
 | --shares | List the shares  | 
 
-You may also add `-p '' -u ''` to get more info with auth. 
+You may also add `-p ' ' -u ' '` to get more info with auth. 
 
 | Parameter        | Description           |
 | ------------- |:-------------:| 
-| -p '' | Username (Blank) | 
-| -u '' | Password (Blank)  | 
+| -p ' ' | Username (Blank) | 
+| -u ' ' | Password (Blank)  | 
 
 ## List all files from readable shares
 
